@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+   
+}
+.container,
+section .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(70, 105, 170);
+    padding: 20px 0;
+}
+header h1, 
+header h1 alt,
+h2,
+form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    color: aliceblue;
+    font-weight: normal;
+    
+
+}
+header h1 alt{
+    color: black;
+}
+
+header nav li{
+    display:inline ;
+    margin-right: 8px;
+    
+}
+
+header nav li a{
+    font-family: "Bungee", sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    
+}
+
+#link02{
+    color: black;
+
+}
+h2{
+    color: black;
+    margin-left: 16px;
+    padding: 8px;
+
+}
+
+section .container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start ;
+    
+}
+section img{
+    height: 350px;
+    
+
+}
+section p{
+    padding: 0 16px;
+    margin-left: 16px; 
+
+}
+section .container p alt{
+    color: white;
+
+}
+#img1{
+    height:430px;
+    margin-bottom: 28px;
+    border-radius: 30px;
+    box-shadow:black 3px 3px 3px 3px
+
+}
+
+#about{
+    background-color: cornflowerblue;
+}
+
+#hobbies{
+    background-color: rgb(134, 164, 219);  
+}
+
+#contact {
+    background-color: rgb(112, 148, 214);
+
+}
+
+form input,
+form textarea,
+form button{
+    width: 480px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+
+}
+form button{
+    background-color: rgb(70, 105, 170);
+    color:#ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(32, 48, 77);
+}
+#header_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 148, 214);
+}
+#social_section{
+    margin-right: 280px;
+
+}
+
+.social-links{
+    align-items: center;
+    margin:30px 150px 0 0;
+
+}
+
+.social-links img{
+    height: 50px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
